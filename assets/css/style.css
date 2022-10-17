@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 5rem;
+    background-image: url(https://images.unsplash.com/photo-1597132825820-094d481f1c4b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background-position: center;
+    background-size: cover;
+}
+main {
+    background-color: #fff;
+    padding: 2rem;
+}
+form div {
+    align-items: center;
+    height: 50px;
+}
+form input {
+    width: 75px;
+    margin-right: .5rem;
+    text-align: end;
+}
+p {
+    margin-left: 5rem;
+    font-size: 1.5rem;
+}
+button {
+    padding: .1rem 1rem;
+    border: none;
+    background-color: #fff;
+}
+button:hover {
+    scale: 1.1;
+    rotate: -5deg;
+}
+div {
+    display: flex;
+}
+ul {
+    text-align: end;
+    margin-top: 1rem;
+}
+div ul:nth-of-type(1) {
+    list-style: none;
+    line-height: 1.4rem;
+    margin-right: 2.5rem;
+}
+div ul:nth-of-type(2) {
+    list-style-type: "➡️  ";
+    line-height: 1.4rem;
+}
