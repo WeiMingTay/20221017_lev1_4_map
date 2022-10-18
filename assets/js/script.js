@@ -16,8 +16,8 @@ let celsius = fahrenheit.map(function(e){
 })
 console.log("Celsius: " + celsius);
 
-displayFahrenheit.innerHTML=`<li>${fahrenheit.join(" °F</li><li>")}°F</li>`
-displayCelsius.innerHTML=`<li>${celsius.join(" °C</li><li>")}°C</li>`
+displayFahrenheit.innerHTML=`<li>${fahrenheit.join(" °F</li><li>")} °F</li>`
+displayCelsius.innerHTML=`<li>${celsius.join(" °C</li><li>")} °C</li>`
 
 function fahrenheitToCelsius() {
     outputCelsius.innerHTML=((inputFahrenheit.value-32)/1.8).toFixed(1)+" °C"
